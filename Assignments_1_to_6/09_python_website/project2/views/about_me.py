@@ -1,5 +1,6 @@
 import streamlit as st
 from forms.contact import contact_form
+import os
 
 @st.dialog("Contact Me")
 def show_contact_form():
@@ -10,7 +11,7 @@ def show_contact_form():
 
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
-    st.image("./assets/my_profile.jpg", width=230)
+    st.image(os.path.abspath("./assets/my_profile.jpg"), width=230)
     
 with col2:
     st.title("", anchor=False)
