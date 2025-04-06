@@ -10,7 +10,7 @@ def show_contact_form():
 
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
-    st.image("https://www.pinterest.com/pin/289426713572381687/", width=230)
+    st.image("https://i.pinimg.com/736x/b0/0a/17/b00a173c36fcd31f028d311a2cc8cd3b.jpg", width=230)
     
 with col2:
     st.title("", anchor=False)
