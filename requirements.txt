@@ -1,1 +1,6 @@
--r Assignments_1_to_6/08_streamlit_bmi_calculator/requirements.txt
+streamlit
+qrcode
+opencv-python
+numpy
+google-generativeai
+pandas
