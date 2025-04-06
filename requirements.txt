@@ -1,6 +1,7 @@
 streamlit
 qrcode
-opencv-python
+qrcode[pil]
+opencv-python-headless
 numpy
 google-generativeai
 pandas
