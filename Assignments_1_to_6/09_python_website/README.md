@@ -9,7 +9,7 @@ It allows users to upload a CSV file, visualize data, filter records, and plot c
 
 Click the below link to view the live demo of the project:
 
-[Click Here to View Live Demo](https://share.streamlit.io/)
+[Click Here to View Live Demo](https://assignment-4-kkemaymagbgpur9rmtd4vs.streamlit.app/)
 
 > *Note:* Upload any CSV file and explore the dashboard features.
 
@@ -81,5 +81,5 @@ Click the link below to access my live portfolio:
 ---
 
 ## Author
-- Developed with ❤ by ["Areeba Zafar"]
+- Developed with ❤ by "Areeba Zafar"
 

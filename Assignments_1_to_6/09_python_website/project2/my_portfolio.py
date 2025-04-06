@@ -37,7 +37,7 @@ pg = st.navigation(
 )
 
 # SHARED ON ALL PAGES
-st.logo("assets/logo.png")
+st.sidebar.image("assets/logo.png", width=150)
 st.sidebar.text("Made with ❤ by Areeba Zafar")
 
 # RUN NAVIGATION
