@@ -56,7 +56,7 @@ Welcome to my personal portfolio! This site showcases my projects and experience
 
 Click the link below to access my live portfolio:
 
-[Live Demo Link](https://assignment-4-4ylfz3tkuppgqxebtteqex.streamlit.app/chatbot)
+[Live Demo Link](https://assignment-4-4ylfz3tkuppgqxebtteqex.streamlit.app/)
 
 ---
 
