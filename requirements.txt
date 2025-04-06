@@ -1,1 +1,1 @@
--r Assignments 1 to 6/08_streamlit_bmi_calculator/requirements.txt
+-r Assignments_1_to_6/08_streamlit_bmi_calculator/requirements.txt
