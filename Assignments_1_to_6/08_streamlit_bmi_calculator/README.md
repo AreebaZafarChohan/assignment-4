@@ -14,9 +14,7 @@
 
 **The app includes an Ideal Weight Chart that suggests the healthy weight range based on height.**
 
-## 🌐 Live Demo
-
-**Run the Streamlit App**
+## [🌐 Live Demo](https://assignment-4-mx9tel5tqhjqycepcxenwx.streamlit.app/)
 
 ## 📧 Contact
 
