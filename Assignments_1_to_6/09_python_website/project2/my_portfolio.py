@@ -1,4 +1,9 @@
 import streamlit as st
+import os
+
+# Assuming the absolute path to your image
+image_path = os.path.join(os.getcwd(), "assets", "logo.png")
+st.sidebar.image(image_path, width=150)
 
 #  PAGE SETUP
 
@@ -37,7 +42,6 @@ pg = st.navigation(
 )
 
 # SHARED ON ALL PAGES
-st.sidebar.image("assets/logo.png", width=150)
 st.sidebar.text("Made with ❤ by Areeba Zafar")
 
 # RUN NAVIGATION
