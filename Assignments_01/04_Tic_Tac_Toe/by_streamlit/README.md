@@ -5,7 +5,7 @@ A sleek and interactive Tic Tac Toe game built using Python and Streamlit. This 
 ---
 
 ## 🚀 Live Demo
-Experience the game live: [Play Now]("")
+Experience the game live: [Play Now]("https://assignment-4-jfczsqlh4aly5ezqr9pt4l.streamlit.app/")
 
 ## Features
 
