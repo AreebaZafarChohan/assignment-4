@@ -5,3 +5,10 @@ opencv-python-headless
 numpy
 google-generativeai
 pandas
+requests
+pandas
+plotly
+pillow
+matplotlib
+python-dotenv
+statsmodels
