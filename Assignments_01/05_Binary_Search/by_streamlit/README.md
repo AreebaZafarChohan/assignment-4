@@ -2,7 +2,7 @@
 
 A Streamlit application that visually demonstrates how the binary search algorithm works step by step using interactive bar charts.
 
-![Binary Search Visualization](https://assignment-4-46cql5ndtntvxdz2ra6y5j.streamlit.app/)
+[Binary Search Visualization](https://assignment-4-46cql5ndtntvxdz2ra6y5j.streamlit.app/)
 
 ## ✨ Features
 

@@ -1,6 +1,6 @@
 # Shop Sales Analyzer
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://your-streamlit-app-url.herokuapp.com/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://assignment-4-9h8ktk6gxsevyl7yh6o4u6.streamlit.app/)
 
 A powerful sales analysis dashboard built with Streamlit for retail businesses.
 
