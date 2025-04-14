@@ -1,30 +1,123 @@
 import random
-from words import words
 import string
+from words import words  # make sure this is a list of words
+
+# Hangman drawing stages (from full lives to zero)
+hangman_stages = [
+    '''
+       +---+
+       |   |
+           |
+           |
+           |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+       O   |
+           |
+           |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+       O   |
+       |   |
+           |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+       O   |
+      /|   |
+           |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+       O   |
+      /|\\  |
+           |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+       O   |
+      /|\\  |
+      /    |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+       O   |
+      /|\\  |
+      / \\  |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+      [O   |
+      /|\\  |
+      / \\  |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+      [O]  |
+      /|\\  |
+      / \\  |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+      [O]_ |
+      /|\\  |
+      / \\  |
+           |
+    =========''',
+    '''
+       +---+
+       |   |
+      [O]_/
+      /|\\  |
+      / \\  |
+           |
+    ========='''
+]
 
 def get_valid_word(words):
-    word = random.choice(words).upper()  # Convert word to uppercase
+    word = random.choice(words).upper()
     while "-" in word or " " in word:
-        word = random.choice(words).upper()  # Ensure all words are uppercase
+        word = random.choice(words).upper()
     return word
 
 def hangman():
     word = get_valid_word(words)
-    word_letters = set(word)  # Letters in the word
-    alphabet = set(string.ascii_uppercase)  # Uppercase letters
-    used_letters = set()  # What the user has guessed
-    total_attempts = 0  # Count the total guesses made
+    word_letters = set(word)
+    alphabet = set(string.ascii_uppercase)
+    used_letters = set()
+    total_attempts = 0
 
-    lives = 10
+    lives = 10  # Max lives = len(hangman_stages) - 1
 
     while len(word_letters) > 0 and lives > 0:
-        print(f"\nYou have {lives} lives left and you have used these letters: ", " ".join(sorted(used_letters)))
+        print(hangman_stages[10 - lives])  # Show current stage
+        print(f"\nYou have {lives} lives left. Used letters: {' '.join(sorted(used_letters))}")
         
         word_list = [letter if letter in used_letters else "-" for letter in word]
-        print("Current word: ", " ".join(word_list))
+        print("Current word:", " ".join(word_list))
 
         user_letter = input("Guess a letter: ").upper()
-        total_attempts += 1  # Increment attempts on every guess
+        total_attempts += 1
 
         if user_letter in alphabet - used_letters:
             used_letters.add(user_letter)
@@ -32,18 +125,18 @@ def hangman():
                 word_letters.remove(user_letter)
             else:
                 lives -= 1
-                print("Letter is not in word.")    
-
+                print("\n❌ Letter is not in the word.")
         elif user_letter in used_letters:
-            print("You have already used that character. Please try again.")
-
+            print("\n⚠️ You have already used that letter.")
         else:
-            print("Invalid character. Please try again.")
+            print("\n❌ Invalid character. Try again.")
 
+    # Game Over
     if lives == 0:
-        print(f"\nYou died! Sorry, the word was {word}.")
+        print(hangman_stages[-1])
+        print(f"\n💀 You lost! The word was: {word}")
     else:
-        print(f"\nCongratulations! You guessed the word {word} in {total_attempts} attempts with {lives} lives remaining!!")
+        print(f"\n🎉 Congratulations! You guessed the word '{word}' in {total_attempts} attempts with {lives} lives left!\n")
 
 # Run the game
 hangman()

@@ -1,0 +1,8 @@
+streamlit
+requests
+pandas
+plotly
+pillow
+matplotlib
+python-dotenv
+statsmodels

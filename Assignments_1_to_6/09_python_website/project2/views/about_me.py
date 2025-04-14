@@ -13,7 +13,7 @@ with col1:
     st.image("https://i.pinimg.com/736x/b0/0a/17/b00a173c36fcd31f028d311a2cc8cd3b.jpg", width=230)
     
 with col2:
-    st.title("", anchor=False)
+   # st.title("", anchor=False)
     st.markdown("<h2 style='text-align: left; text-decoration: underline; color: cyan; font-weight: bold; font-size: 45px '>Areeba Zafar</h2>", unsafe_allow_html=True)
     st.write(
         "I’m a passionate web developer and teacher, focused on creating responsive, user-friendly websites. I’m also excited to dive into AI, and I love sharing my knowledge with others to help them grow in web development and beyond."
