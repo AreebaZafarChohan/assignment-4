@@ -22,7 +22,7 @@ A modern weather application built with Python and Streamlit that provides real-
 
 ## 🚀 Live Demo
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url.herokuapp.com)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://assignment-4-6bdyvqv5k7pmlaauztwdnj.streamlit.app/)
 
 
 ## 📌 How to Use

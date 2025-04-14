@@ -12,3 +12,5 @@ pillow
 matplotlib
 python-dotenv
 statsmodels
+openpyxl
+xlrd

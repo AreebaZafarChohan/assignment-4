@@ -17,8 +17,7 @@ This is a simple Streamlit web app that allows users to upload an image file, re
 
 ## 💻 Live Demo
 
-👉 [Click here to try it out](https://your-demo-link.streamlit.app)  
-*(Replace this link with your actual Streamlit Cloud or deployment URL)*
+👉 [Click here to try it out](https://assignment-4-lukftvadcmwwvxwlnstyeb.streamlit.app/)  
 
 ---
 
