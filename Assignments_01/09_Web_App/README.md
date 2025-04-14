@@ -12,7 +12,7 @@ A simple web app to fetch basic country information from REST Countries API.
 
 ## ▶️ Live Demo
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://country-info-app.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://assignment-4-yccsrpsklanvtztwaxtcnb.streamlit.app/)
 
 ## ✨ Features
 
@@ -37,7 +37,7 @@ A responsive web app to explore comprehensive country information with beautiful
 
 ## ▶️ Live Demo
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://country-info-app.streamlit.app)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://assignment-4-f78uzyben3khddlegjwwt2.streamlit.app/)
 
 ## ✨ Features
 
